@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<!-- application title bar -->
+<header class="apptitle">
+  <h1>My Final App for Mad9022</h1>
+</header>
+<body>
+<!-- tabbed navigation bar -->
+<nav class="tabs">
+  <ul>
+    <li class="li-1-2"><a href="#home" data-role="pagelink" class="activetab">List</a></li>
+    <li class="li-1-2"><a href="#takephoto" data-role="pagelink">Take Photo</a></li>
+  </ul>
+</nav>
+
+<section data-role="page" id="home" class="active">
+  <h2>Home Screen</h2>
+  <p>List Screen</p>
+</section>
+<section data-role="page" id="takephoto">
+  <h2>Screen Two</h2>
+  <div id="photoDiv">
+      <canvas id="photoFromCamera"></canvas><br>
+  </div>
+  <div id="photoControls">
+      Text on Photo: <input type="text" id="textOnPhoto" value="" maxlength="30" size="30"><br>
+          Text Position: <input type="radio" name="position" value="top" checked>Top <input type="radio" name="position" value="bottom">Bottom<br>
+    <input type="button" id="applyText" value = "Apply Text">
+    <input type="button" id="saveToDB" value = "Save to DB">
+  </div>
+</section>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+</body>
+</html>
