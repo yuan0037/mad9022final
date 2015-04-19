@@ -10,6 +10,8 @@ var canvasForLarge, contextForLarge;
 var largeImage, smallImage
 var canvasForSmall, contextForSmall;
 
+var baseURL ="http://m.edumedia.ca/yuan0037/mad9022/final/";
+//"http://faculty.edumedia.ca/griffis/mad9022/final-w15/";
 
 document.addEventListener('DOMContentLoaded', function(){
                           
@@ -149,8 +151,8 @@ function deletePhotoFromDB(ev){
     console.log("delete photo id = ", ev.target.getAttribute("photoID"));
     
     var http = new XMLHttpRequest();
-    var url = "http://faculty.edumedia.ca/griffis/mad9022/final-w15/delete.php";
-    //var url = "http://localhost:8888/mad9022/ajax/save.php";
+    var url = baseURL+"delete.php";
+
     
     var params = "dev="+device.uuid+"&img_id="+ev.target.getAttribute("photoID");
     url = url+"?"+params
@@ -180,8 +182,8 @@ function closeModalDialog(){
 
 function showLargePhotoInModalDialog(ev){
     var http = new XMLHttpRequest();
-    var url = "http://faculty.edumedia.ca/griffis/mad9022/final-w15/get.php";
-    //var url = "http://localhost:8888/mad9022/ajax/save.php";
+    var url = baseURL + "get.php";
+
     
     var photoID = ev.target.parentNode.getAttribute("photoID");
     var params = "dev="+device.uuid+"&img_id="+photoID;
@@ -247,8 +249,8 @@ function showPhotos(photoArray){
 function loadPhotoListFromDB(){
     console.log("loadPhotoListFromDB invoked");
     var http = new XMLHttpRequest();
-    var url = "http://faculty.edumedia.ca/griffis/mad9022/final-w15/list.php";
-    //var url = "http://localhost:8888/mad9022/ajax/save.php";
+    var url = baseURL+"list.php";
+
 
     var params = "dev="+device.uuid;
     url = url+"?"+params
@@ -412,7 +414,7 @@ function addText(ev){
 function savePhotoToDB(){
     console.log("savePhotoToDB invoked");
     var http = new XMLHttpRequest();
-    var url = "http://faculty.edumedia.ca/griffis/mad9022/final-w15/save.php";
+    var url = baseURL + "save.php";
 
 
     console.log(getLargeImageBase64Code());
