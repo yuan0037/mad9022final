@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function(){
                                                     loadPage(null);
                                                     document.querySelector("#applyText").addEventListener("click", addText);
                                                     document.querySelector("#saveToDB").addEventListener("click", savePhotoToDB);
+                                                    document.querySelector("#btnOK").addEventListener("click", closeModalDialog);
                                                     
- 
                                                     });
                           
                           });
@@ -95,7 +95,7 @@ function loadPage(url){
         getPictureFromDeviceCamera();
     }
     else {
-        if (url == "home")
+        if ((url == "home") || (url ==null))
         {
             loadPhotoListFromDB();
         }
@@ -133,7 +133,19 @@ function browserBackButton(ev){
     }
 }
 
+function ConfirmDelete()
+{
+    var x = confirm("Are you sure you want to delete?");
+    if (x)
+        return true;
+    else
+        return false;
+}
+
 function deletePhotoFromDB(ev){
+    
+    if (ConfirmDelete() == true)
+    {
     console.log("delete photo id = ", ev.target.getAttribute("photoID"));
     
     var http = new XMLHttpRequest();
@@ -156,26 +168,57 @@ function deletePhotoFromDB(ev){
         }
     }
     http.send();
+    document.querySelector("#photoList").removeChild(ev.target.parentNode);
     console.log("deletePhotoFromDB invoke finished");
+    }
+}
+
+function closeModalDialog(){
+    document.querySelector("[data-role=modal]").style.display="none";
+    document.querySelector("[data-role=overlay]").style.display="none";
+}
+
+function showLargePhotoInModalDialog(ev){
+    var http = new XMLHttpRequest();
+    var url = "http://faculty.edumedia.ca/griffis/mad9022/final-w15/get.php";
+    //var url = "http://localhost:8888/mad9022/ajax/save.php";
     
+    var photoID = ev.target.parentNode.getAttribute("photoID");
+    var params = "dev="+device.uuid+"&img_id="+photoID;
+    url = url+"?"+params
+    console.log("url=",url);
+    http.open("GET", url, true);
+    
+    http.setRequestHeader("Access-Control-Allow-Origin", "true");
+    
+    http.onreadystatechange = function() {//Call a function when the state changes.
+        if (http.readyState == 4 && http.status == 200) {
+            console.log("after get photo = ", http.responseText);
+            
+            //------------------show modal dialog---------
+            document.querySelector("[data-role=modal]").style.display="block";
+            document.querySelector("[data-role=overlay]").style.display="block";
+            document.querySelector("#modalLargeImage").src = JSON.parse(http.responseText).data;
+        }
+    }
+    http.send();
+    console.log("showLargePhotoInModalDialog invoke finished");
 }
 
 function showPhotos(photoArray){
-    //console.log(photoArray);
-    //var photoObjectList = JSON.parse(photoArray);
-    console.log("hihihi");
-    //var list = photoArray;
-    console.log(typeof(photoArray));
+    console.log("showPhotos invoked");
     var ul = document.querySelector("#photoList");
     ul.innerHTML = "";
     
     try
     {
-        console.log("after parsed to json: " + typeof(JSON.parse(photoArray)));
+        //console.log("after parsed to json: " + typeof(JSON.parse(photoArray)));
         photoArray =JSON.parse(photoArray);
         for (i=0; i<photoArray.thumnbails.length; i++)
         {
             var li = document.createElement("li");
+            li.setAttribute("photoID", photoArray.thumnbails[i].id);
+
             var thumbImage = document.createElement("img");
             var deleteBtn = document.createElement("BUTTON");
             deleteBtn.setAttribute("photoID", photoArray.thumnbails[i].id);
@@ -183,30 +226,23 @@ function showPhotos(photoArray){
             var deleteBtnCaption = document.createTextNode("Delete");       // Create a text node
             deleteBtn.appendChild(deleteBtnCaption);                                // Append the text to <button>
             deleteBtn.addEventListener("click", deletePhotoFromDB);
+            
+            var mcForSmallImage = new Hammer.Manager(thumbImage);
+            mcForSmallImage.add(new Hammer.Tap({ event: 'singletap' , taps: 1, threshold: 5}) );
+            mcForSmallImage.on("singletap", showLargePhotoInModalDialog);
+            
 
-//            thumbImage.setAttribute('src',photoArray.thumnbails[i].data);
-//            var img = new Image;
             thumbImage.src = photoArray.thumnbails[i].data;
             
             li.appendChild(thumbImage);
             li.appendChild(deleteBtn);
             ul.appendChild(li);
-            console.log("photo id = ", photoArray.thumnbails[i].id);
-            //console.log("photo data = ", photoArray.thumnbails[i].data);
         }
-       // console.log(JSON.parse(photoArray).thumnbails[0].id);
     }
     catch(err) {
-        console.log("cannot convert, error = ", err.message);
+        console.log("cannot convert to JSON, error = ", err.message);
     }
-//    console.log(list["thumnbails"][0].id);
-//    console.log("parsed done");
-   //console.log(photoObjectList.thumnbails[0].id);
-    
-    //console.log(photoArray[0].thumnbails);
-//    for each (variable in object) {
-//        statement
-//    }
+
 }
 function loadPhotoListFromDB(){
     console.log("loadPhotoListFromDB invoked");
@@ -222,13 +258,8 @@ function loadPhotoListFromDB(){
     http.setRequestHeader("Access-Control-Allow-Origin", "true");
     
     http.onreadystatechange = function() {//Call a function when the state changes.
-        console.log("statechanged, status = ", http.status);
-        console.log("readystate=", http.readystate);
-        //console.log("before, responseText = ", http.responseText);
         if (http.readyState == 4 && http.status == 200) {
-            //var myArr = JSON.parse(http.responseText);
             showPhotos(http.responseText);
-            //console.log("tomorrow at = ",http.responseText.thumnbails[0].id)
         }
     }
     http.send();
@@ -372,38 +403,9 @@ function drawTextOnContext(context, canvas, image, text){
 
 function addText(ev){
     var txt = document.querySelector("#textOnPhoto").value;
-    console.log("addText invoked");
     if(txt != ""){
-        console.log("hihi");
         drawTextOnContext(contextForLarge, canvasForLarge, largeImage, txt);
-        console.log("hihi2");
         drawTextOnContext(contextForSmall, canvasForSmall, smallImage, txt);
-//        //clear the canvas
-//        contextForLarge.clearRect(0, 0, canvasForLarge.w, canvasForLarge.h);
-//        //reload the image
-//        var w = largeImage.width;
-//        var h = largeImage.height;
-//        
-//        context.drawImage(largeImage, 0, 0, w, h);
-//        //THEN add the new text to the image
-//        var middle = c.width / 2;
-//        var bottom = c.height - 30;
-//        var top = 30;
-//        contextForLarge.font = "20px sans-serif";
-//        contextForLarge.fillStyle = "red";
-//        contextForLarge.strokeStyle = "gold";
-//        contextForLarge.textAlign = "center";
-//        
-//        if (document.querySelector('input[name="position"]:checked').value == "bottom")
-//        {
-//        contextForLarge.fillText(txt, middle, bottom);
-//        contextForLarge.strokeText(txt, middle, bottom);
-//        }
-//        else
-//        {
-//            contextForLarge.fillText(txt, middle, top);
-//            contextForLarge.strokeText(txt, middle, top);
-//        }
     }
 }
 
@@ -411,7 +413,7 @@ function savePhotoToDB(){
     console.log("savePhotoToDB invoked");
     var http = new XMLHttpRequest();
     var url = "http://faculty.edumedia.ca/griffis/mad9022/final-w15/save.php";
-    //var url = "http://localhost:8888/mad9022/ajax/save.php";
+
 
     console.log(getLargeImageBase64Code());
     console.log(getSmallImageBase64Code());
@@ -426,18 +428,8 @@ function savePhotoToDB(){
     http.setRequestHeader("Access-Control-Allow-Origin", "true");
     
     http.onreadystatechange = function() {//Call a function when the state changes.
-        console.log("statechanged, status = ", http.status);
         if(http.readyState == 4 && http.status == 200) {
-            console.log(http.responseText);
-            console.log(http.responseText.code);
-//            if ((http.responseText.code==0) && (http.responseText.message == "Success")) {
-//                navigator.notification.alert(
-//                                             'Your photo was successfully submitted!',  // message
-//                                             function(){},         // callback
-//                                             'Success',            // title
-//                                             'OK'                  // buttonName
-//                                             );
-//            }
+            console.log("photo saved");
         }
     };
     http.send(params);
@@ -445,19 +437,11 @@ function savePhotoToDB(){
 }
 
 function getLargeImageBase64Code(){
-    //extract the base-64 encoded string from the canvas to the output div
-    //https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images
-    //full sized image
-    //second parameter is the quality of the jpeg 0 - 1.
-    console.log("step 1");
     var largeImageBase64 = canvasForLarge.toDataURL("image/jpeg", 1.0);
-    console.log("step 11");
     return largeImageBase64;
 }
 
 function getSmallImageBase64Code(){
-    console.log("step 2");
     var smallImageBase64 = canvasForSmall.toDataURL("image/jpeg", 1.0);
-    console.log("step 22");
     return smallImageBase64;
 }
