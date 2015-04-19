@@ -36,6 +36,12 @@
                             "xml": false,
                             "count": 1
                         }
+                    ],
+                    "AudioToolbox.framework": [
+                        {
+                            "xml": true,
+                            "count": 2
+                        }
                     ]
                 }
             },
@@ -56,6 +62,14 @@
                         },
                         {
                             "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -81,6 +95,12 @@
             "PACKAGE_NAME": "com.algonquinlive.yuan0037.final"
         },
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.algonquinlive.yuan0037.final"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.algonquinlive.yuan0037.final"
+        },
+        "org.apache.cordova.vibration": {
             "PACKAGE_NAME": "com.algonquinlive.yuan0037.final"
         }
     },

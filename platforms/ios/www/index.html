@@ -22,13 +22,15 @@
 
 <section data-role="page" id="home" class="active">
   <h2>Home Screen</h2>
-  <p>List Screen</p>
+  <ul id="photoList"></ul>
 </section>
 <section data-role="page" id="takephoto">
   <h2>Screen Two</h2>
   <div id="photoDiv">
-      <canvas id="photoFromCamera"></canvas><br>
+      <canvas id="photoFromCamera"></canvas>
+      <canvas id="thumbPhoto"></canvas>
   </div>
+  
   <div id="photoControls">
       Text on Photo: <input type="text" id="textOnPhoto" value="" maxlength="30" size="30"><br>
           Text Position: <input type="radio" name="position" value="top" checked>Top <input type="radio" name="position" value="bottom">Bottom<br>
@@ -36,6 +38,25 @@
     <input type="button" id="saveToDB" value = "Save to DB">
   </div>
 </section>
+
+<!-- always display the overlay between a page and modal -->
+<div data-role="overlay">&nbsp;</div>
+
+<!-- modal for adding an entry to person or occasion table -->
+<div data-role="modal" id="previewLargePhoto">
+    <h3></h3>
+    <form>
+        <div class="formBox">
+            <input type="text" id="new-per-occ" value="" placeholder="" class=""/>
+        </div>
+        <div class="formBox">
+            <input type="button" class="btnCancel" value="CANCEL" />
+            <input type="button" class="btnSave" value="SAVE" />
+        </div>
+    </form>
+</div>
+
+
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

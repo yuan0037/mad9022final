@@ -123,7 +123,7 @@ p{
 
 #photoDiv{
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
 #photoFromCamera{
     width:100%;
@@ -136,4 +136,7 @@ p{
 input{
     line-height: 5vmin;
     font-size: 1.5rem;
+}
+#thumbPhoto{
+    display: none;
 }
