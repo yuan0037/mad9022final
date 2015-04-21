@@ -15,7 +15,7 @@ var baseURL ="http://m.edumedia.ca/yuan0037/mad9022/final/";
 
 document.addEventListener('DOMContentLoaded', function(){
                           
-                          console.log("add listner for content loaded");
+                          //console.log("add listner for content loaded");
                           document.addEventListener('deviceready', function(){
                                                     largeImage = document.createElement("img");
                                                     smallImage = document.createElement("img");
@@ -61,7 +61,7 @@ function handleNav(ev){
 //Deal with history API and switching divs
 
 function loadPage(url){
-    console.log("url = ", url);
+    //console.log("url = ", url);
     if(url == null)
     {
         //home page first call
@@ -93,7 +93,7 @@ function loadPage(url){
 
     if (url == "takephoto")
     {
-        console.log("start to take photo");
+        //console.log("start to take photo");
         getPictureFromDeviceCamera();
     }
     else {
@@ -148,7 +148,7 @@ function deletePhotoFromDB(ev){
     
     if (ConfirmDelete() == true)
     {
-    console.log("delete photo id = ", ev.target.getAttribute("photoID"));
+    //console.log("delete photo id = ", ev.target.getAttribute("photoID"));
     
     var http = new XMLHttpRequest();
     var url = baseURL+"delete.php";
@@ -156,22 +156,22 @@ function deletePhotoFromDB(ev){
     
     var params = "dev="+device.uuid+"&img_id="+ev.target.getAttribute("photoID");
     url = url+"?"+params
-    console.log("url=",url);
+    //console.log("url=",url);
     http.open("GET", url, true);
     
     http.setRequestHeader("Access-Control-Allow-Origin", "true");
     
     http.onreadystatechange = function() {//Call a function when the state changes.
-        console.log("statechanged, status = ", http.status);
-        console.log("readystate=", http.readystate);
+        //console.log("statechanged, status = ", http.status);
+        //console.log("readystate=", http.readystate);
         //console.log("before, responseText = ", http.responseText);
         if (http.readyState == 4 && http.status == 200) {
-            console.log(http.responseText);
+            //console.log(http.responseText);
         }
     }
     http.send();
     document.querySelector("#photoList").removeChild(ev.target.parentNode);
-    console.log("deletePhotoFromDB invoke finished");
+    //console.log("deletePhotoFromDB invoke finished");
     }
 }
 
@@ -188,14 +188,14 @@ function showLargePhotoInModalDialog(ev){
     var photoID = ev.target.parentNode.getAttribute("photoID");
     var params = "dev="+device.uuid+"&img_id="+photoID;
     url = url+"?"+params
-    console.log("url=",url);
+    //console.log("url=",url);
     http.open("GET", url, true);
     
     http.setRequestHeader("Access-Control-Allow-Origin", "true");
     
     http.onreadystatechange = function() {//Call a function when the state changes.
         if (http.readyState == 4 && http.status == 200) {
-            console.log("after get photo = ", http.responseText);
+            //console.log("after get photo = ", http.responseText);
             
             //------------------show modal dialog---------
             document.querySelector("[data-role=modal]").style.display="block";
@@ -204,11 +204,11 @@ function showLargePhotoInModalDialog(ev){
         }
     }
     http.send();
-    console.log("showLargePhotoInModalDialog invoke finished");
+    //console.log("showLargePhotoInModalDialog invoke finished");
 }
 
 function showPhotos(photoArray){
-    console.log("showPhotos invoked");
+    //console.log("showPhotos invoked");
     var ul = document.querySelector("#photoList");
     ul.innerHTML = "";
     
@@ -247,14 +247,14 @@ function showPhotos(photoArray){
 
 }
 function loadPhotoListFromDB(){
-    console.log("loadPhotoListFromDB invoked");
+    //console.log("loadPhotoListFromDB invoked");
     var http = new XMLHttpRequest();
     var url = baseURL+"list.php";
 
 
     var params = "dev="+device.uuid;
     url = url+"?"+params
-    console.log("url=",url);
+    //console.log("url=",url);
     http.open("GET", url, true);
     
     http.setRequestHeader("Access-Control-Allow-Origin", "true");
@@ -265,13 +265,13 @@ function loadPhotoListFromDB(){
         }
     }
     http.send();
-    console.log("loadPhotoListFromDB invoke finished");
+    //console.log("loadPhotoListFromDB invoke finished");
     
 }
 
 
 function getPictureFromDeviceCamera(){
-    console.log("getPictureFromCamera invoked");
+    //console.log("getPictureFromCamera invoked");
     if (!navigator.camera) {
         console.log("Camera API not supported", "Error");
         return;
@@ -303,7 +303,7 @@ function imgFail(message)
 
 
 function imgSuccess(fileURI){
-    console.log(fileURI);
+    //console.log(fileURI);
 
     canvasForLarge = document.querySelector("#photoFromCamera");
     //good idea to set the size of the canvas in Javascript in addition to CSS
@@ -321,10 +321,10 @@ function imgSuccess(fileURI){
                        //load to canvas after the image is loaded
                        //in this sample the original is 300px x 400px
                        //alert( i.width + " " + i.height)
-                                console.log("large image load listener");
-                                console.log("large image width, height = ", largeImage.width, largeImage.height);
-                                console.log("ev.currentTarget==", ev.currentTarget);
-                        console.log("ev.currentTarget.width height == ", ev.currentTarget.width, ev.currentTarget.height);
+                                //console.log("large image load listener");
+                                //console.log("large image width, height = ", largeImage.width, largeImage.height);
+                                //console.log("ev.currentTarget==", ev.currentTarget);
+                        //console.log("ev.currentTarget.width height == ", ev.currentTarget.width, ev.currentTarget.height);
                        var imgWidth = ev.currentTarget.width;
                        var imgHeight = ev.currentTarget.height;
                        var aspectRatio = imgWidth / imgHeight;
@@ -333,7 +333,7 @@ function imgSuccess(fileURI){
                        ev.currentTarget.width = canvasForLarge.height * aspectRatio;
                        var w = largeImage.width;
                        var h = largeImage.height;
-                       console.log("width: ", w, " height: ", h, " aspect ratio: ", aspectRatio);
+                       //console.log("width: ", w, " height: ", h, " aspect ratio: ", aspectRatio);
                        canvasForLarge.width = w;
                        canvasForLarge.style.width = w + "px";
                        contextForLarge.drawImage(largeImage, 0, 0, w, h);
@@ -341,13 +341,13 @@ function imgSuccess(fileURI){
                        });
     
     smallImage.addEventListener("load", function(ev){
-                                console.log("small image load listener");
+                                //console.log("small image load listener");
                                 //load to canvas after the image is loaded
                                 //in this sample the original is 300px x 400px
                                 //alert( i.width + " " + i.height)
-                                console.log("small image width, height = ", smallImage.width, smallImage.height);
-                                console.log("ev.currentTarget==", ev.currentTarget);
-                                console.log("ev.currentTarget.width height == ", ev.currentTarget.width, ev.currentTarget.height);
+                                //console.log("small image width, height = ", smallImage.width, smallImage.height);
+                                //console.log("ev.currentTarget==", ev.currentTarget);
+                                //console.log("ev.currentTarget.width height == ", ev.currentTarget.width, ev.currentTarget.height);
                                 var imgWidth = ev.currentTarget.width;
                                 var imgHeight = ev.currentTarget.height;
                                 var aspectRatio = imgWidth / imgHeight;
@@ -356,7 +356,7 @@ function imgSuccess(fileURI){
                                 ev.currentTarget.width = canvasForSmall.height*aspectRatio;
                                 var w = smallImage.width;
                                 var h = smallImage.height;
-                                console.log("width: ", w, " height: ", h, " aspect ratio: ", aspectRatio);
+                                //console.log("width: ", w, " height: ", h, " aspect ratio: ", aspectRatio);
                                 canvasForSmall.width = w;
                                 canvasForSmall.style.width = w + "px";
                                 contextForSmall.drawImage(smallImage, 0, 0, w, h);
@@ -366,14 +366,14 @@ function imgSuccess(fileURI){
     
     largeImage.src = fileURI;
     smallImage.src = fileURI;
-    console.log("large and small image loaded done");
+    //console.log("large and small image loaded done");
     
 }
 
 function drawTextOnContext(context, canvas, image, text){
     
     if(text != ""){
-        console.log("draw triggered once");
+        //console.log("draw triggered once");
         //clear the canvas
         context.clearRect(0, 0, canvas.w, canvas.h);
         //reload the image
@@ -412,15 +412,15 @@ function addText(ev){
 }
 
 function savePhotoToDB(){
-    console.log("savePhotoToDB invoked");
+    //console.log("savePhotoToDB invoked");
     var http = new XMLHttpRequest();
     var url = baseURL + "save.php";
 
 
-    console.log(getLargeImageBase64Code());
-    console.log(getSmallImageBase64Code());
+    //console.log(getLargeImageBase64Code());
+    //console.log(getSmallImageBase64Code());
     var params = "dev="+device.uuid+"&img="+getLargeImageBase64Code()+"&thumb="+getSmallImageBase64Code();
-    console.log("params=",params);
+    //console.log("params=",params);
     http.open("POST", url, true);
     
     //Send the proper header information along with the request
@@ -431,19 +431,20 @@ function savePhotoToDB(){
     
     http.onreadystatechange = function() {//Call a function when the state changes.
         if(http.readyState == 4 && http.status == 200) {
-            console.log("photo saved");
+            //console.log("photo saved");
+            //console.log(http.responseText);
         }
     };
     http.send(params);
-    console.log("savePhotoToDB invoke finished");
+    //console.log("savePhotoToDB invoke finished");
 }
 
 function getLargeImageBase64Code(){
     var largeImageBase64 = canvasForLarge.toDataURL("image/jpeg", 1.0);
-    return largeImageBase64;
+    return encodeURIComponent(largeImageBase64);
 }
 
 function getSmallImageBase64Code(){
     var smallImageBase64 = canvasForSmall.toDataURL("image/jpeg", 1.0);
-    return smallImageBase64;
+    return encodeURIComponent(smallImageBase64);
 }
