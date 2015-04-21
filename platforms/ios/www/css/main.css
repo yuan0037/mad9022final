@@ -10,7 +10,7 @@ html {
     touch-action: manipulation;
 }
 html, body{
-	background-color: #000;
+	background-color: #16a085;
 	/*#e4e4e4; This can be changed to match the page backgrounds */	
 }
 body{
@@ -19,7 +19,11 @@ body{
 h2{
 	font-size:2.4rem;
 	line-height:1.6;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;	
+	text-align: center;
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+	text-shadow: 2px 2px #f39c12;
+	letter-spacing: 3px;
+	word-spacing: 10px;
 }
 p{
 	font-size:1.5rem;
@@ -31,8 +35,10 @@ p{
           PAGES
 ***************************************/
 [data-role=page]{
-	background-color:#000;
+	background-color:#16a085;
 	color: #eee;
+	width: 100%;
+	margin: 0 auto;
 	/*7rem is space for the app title 
 	as well as the navigation */
 	position:absolute;
@@ -77,18 +83,19 @@ p{
 ***************************************/
 .apptitle{
 	height:3rem;
-	background-color: #333;
-	color: #fff;
+	background-color: #f1c40f;
+	color: #ab7901;
+	padding-top: 10px;
 }
 .apptitle h1{
 	font-size: 1.0rem;
 	line-height: 2rem;
 	padding: 0.5rem 1.0rem;
 	text-align:center;
-	letter-spacing: 10px;
+	letter-spacing: 2px;
 	word-spacing: 10px;
 	text-transform:uppercase;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;	
+	font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;	
 }
 
 /**************************************
@@ -123,14 +130,14 @@ p{
 	/* for 2 tabs each is 50% */
 }
 .tabs [data-role=pagelink]{
-	color: #777;	
-	background: #aaa;
+	color: #649a90;	
+	background: #04715c;
 	display:block;
 	text-align:center;
 	height:4rem;
 	font-size:2rem;
 	font-weight:bold;
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	font-family: Georgia,Times,"Times New Roman",serif;
 	line-height:2rem;
 	padding:1rem 1rem;
 	text-decoration:none;
@@ -140,11 +147,13 @@ p{
 	box-shadow: inset 2px 2px 6px rgba(0,0,0, 0.5);
 }
 .tabs [data-role=pagelink].activetab{
-	background:#000;	/* match the background of the screen */
-	color: #0cf;		/* colour makes the active tab jump forward */
+	background:#16a085;	/* match the background of the screen */
+	color: #ffe684;/* colour makes the active tab jump forward */
+	text-shadow: 2px 2px 4px #30302f;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
 	box-shadow:none;
+	
 }
 
 #photoDiv{
@@ -162,7 +171,9 @@ p{
 input{
     line-height: 5vmin;
     font-size: 1.5rem;
+	margin: 0 auto;
 }
+
 #thumbPhoto{
     display: none;
 }

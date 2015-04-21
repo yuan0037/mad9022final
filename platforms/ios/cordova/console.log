@@ -1,0 +1,574 @@
+2015-04-20 14:44:00.851 Final[855:23170] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/6D1543FF-C3FB-4545-91EE-2CBF16C7ED41/Library/Cookies/Cookies.binarycookies
+2015-04-20 14:44:01.224 Final[855:23170] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 14:44:01.224 Final[855:23170] Multi-tasking -> Device: YES, App: YES
+2015-04-20 14:44:01.236 Final[855:23170] Unlimited access to network resources
+2015-04-20 14:44:01.246 Final[855:23170] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 14:44:02.234 Final[855:23170] Resetting plugins due to page load.
+2015-04-20 14:44:02.358 Final[855:23170] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/D32F8B64-0A08-47FD-B547-03D119A55522/Final.app/www/index.html
+2015-04-20 14:44:02.410 Final[855:23170] Received Event: deviceready
+2015-04-20 14:44:02.410 Final[855:23170] url =  
+2015-04-20 14:44:02.410 Final[855:23170] loadPhotoListFromDB invoked
+2015-04-20 14:44:02.410 Final[855:23170] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 14:44:02.410 Final[855:23170] loadPhotoListFromDB invoke finished
+2015-04-20 14:44:02.530 Final[855:23170] showPhotos invoked
+2015-04-20 14:45:31.453 Final[1057:25281] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/C2F763AF-B98D-4F31-ACE3-F5E2205D236C/Library/Cookies/Cookies.binarycookies
+2015-04-20 14:45:31.517 Final[1057:25281] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 14:45:31.517 Final[1057:25281] Multi-tasking -> Device: YES, App: YES
+2015-04-20 14:45:31.518 Final[1057:25281] Unlimited access to network resources
+2015-04-20 14:45:31.520 Final[1057:25281] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 14:45:31.716 Final[1057:25281] Resetting plugins due to page load.
+2015-04-20 14:45:31.753 Final[1057:25281] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/171BD1CD-F427-4ED1-A3EE-EC39D7EBFD99/Final.app/www/index.html
+2015-04-20 14:45:31.776 Final[1057:25281] Received Event: deviceready
+2015-04-20 14:45:31.776 Final[1057:25281] url =  
+2015-04-20 14:45:31.776 Final[1057:25281] loadPhotoListFromDB invoked
+2015-04-20 14:45:31.777 Final[1057:25281] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 14:45:31.777 Final[1057:25281] loadPhotoListFromDB invoke finished
+2015-04-20 14:45:31.843 Final[1057:25281] showPhotos invoked
+2015-04-20 14:48:05.749 Final[1057:25281] url =  takephoto
+2015-04-20 14:48:05.749 Final[1057:25281] start to take photo
+2015-04-20 14:48:05.749 Final[1057:25281] getPictureFromCamera invoked
+2015-04-20 14:48:05.750 Final[1057:26242] Camera.getPicture: source type 1 not available.
+2015-04-20 14:48:15.042 Final[1057:25281] url =  home
+2015-04-20 14:48:15.042 Final[1057:25281] loadPhotoListFromDB invoked
+2015-04-20 14:48:15.042 Final[1057:25281] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 14:48:15.042 Final[1057:25281] loadPhotoListFromDB invoke finished
+2015-04-20 14:48:15.100 Final[1057:25281] showPhotos invoked
+2015-04-20 14:49:04.610 Final[1215:27766] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/0C2E28A8-B58A-4AA2-B7CD-424654F83277/Library/Cookies/Cookies.binarycookies
+2015-04-20 14:49:04.705 Final[1215:27766] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 14:49:04.705 Final[1215:27766] Multi-tasking -> Device: YES, App: YES
+2015-04-20 14:49:04.706 Final[1215:27766] Unlimited access to network resources
+2015-04-20 14:49:04.708 Final[1215:27766] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 14:49:04.893 Final[1215:27766] Resetting plugins due to page load.
+2015-04-20 14:49:04.927 Final[1215:27766] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/91EFB85D-79EA-461C-8316-4CC1453F21BC/Final.app/www/index.html
+2015-04-20 14:49:04.947 Final[1215:27766] Received Event: deviceready
+2015-04-20 14:49:04.947 Final[1215:27766] url =  
+2015-04-20 14:49:04.947 Final[1215:27766] loadPhotoListFromDB invoked
+2015-04-20 14:49:04.947 Final[1215:27766] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 14:49:04.947 Final[1215:27766] loadPhotoListFromDB invoke finished
+2015-04-20 14:49:05.012 Final[1215:27766] showPhotos invoked
+2015-04-20 14:49:06.802 Final[1215:27766] url =  takephoto
+2015-04-20 14:49:06.803 Final[1215:27766] start to take photo
+2015-04-20 14:49:06.803 Final[1215:27766] getPictureFromCamera invoked
+2015-04-20 14:49:06.803 Final[1215:27779] Camera.getPicture: source type 1 not available.
+2015-04-20 14:49:09.235 Final[1215:27766] CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 14:49:09.235 Final[1215:27766] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 14:49:09.236 Final[1215:27766] url =  home
+2015-04-20 14:49:09.236 Final[1215:27766] loadPhotoListFromDB invoked
+2015-04-20 14:49:09.236 Final[1215:27766] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 14:49:09.236 Final[1215:27766] loadPhotoListFromDB invoke finished
+2015-04-20 14:49:09.294 Final[1215:27766] showPhotos invoked
+2015-04-20 14:49:25.358 Final[1215:27766] url =  takephoto
+2015-04-20 14:49:25.358 Final[1215:27766] start to take photo
+2015-04-20 14:49:25.358 Final[1215:27766] getPictureFromCamera invoked
+2015-04-20 14:49:25.358 Final[1215:27934] Camera.getPicture: source type 1 not available.
+2015-04-20 14:49:30.412 Final[1215:27766] savePhotoToDB invoked
+2015-04-20 14:49:31.264 Final[1215:27766] url =  home
+2015-04-20 14:49:31.264 Final[1215:27766] loadPhotoListFromDB invoked
+2015-04-20 14:49:31.264 Final[1215:27766] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 14:49:31.264 Final[1215:27766] loadPhotoListFromDB invoke finished
+2015-04-20 14:49:31.314 Final[1215:27766] showPhotos invoked
+2015-04-20 16:49:55.118 Final[2643:147712] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/02AD4E0B-65DE-43DC-AF9E-5A692934F97A/Library/Cookies/Cookies.binarycookies
+2015-04-20 16:49:55.208 Final[2643:147712] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 16:49:55.209 Final[2643:147712] Multi-tasking -> Device: YES, App: YES
+2015-04-20 16:49:55.210 Final[2643:147712] Unlimited access to network resources
+2015-04-20 16:49:55.211 Final[2643:147712] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 16:49:55.404 Final[2643:147712] Resetting plugins due to page load.
+2015-04-20 16:49:55.457 Final[2643:147712] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/0B3A1430-70AF-44EB-9354-4043F82C1524/Final.app/www/index.html
+2015-04-20 16:49:55.482 Final[2643:147712] Received Event: deviceready
+2015-04-20 16:49:55.482 Final[2643:147712] url =  
+2015-04-20 16:49:55.482 Final[2643:147712] loadPhotoListFromDB invoked
+2015-04-20 16:49:55.482 Final[2643:147712] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 16:49:55.482 Final[2643:147712] loadPhotoListFromDB invoke finished
+2015-04-20 16:49:55.557 Final[2643:147712] showPhotos invoked
+2015-04-20 16:50:06.879 Final[2643:147712] url =  takephoto
+2015-04-20 16:50:06.879 Final[2643:147712] start to take photo
+2015-04-20 16:50:06.879 Final[2643:147712] getPictureFromCamera invoked
+2015-04-20 16:50:06.880 Final[2643:147761] Camera.getPicture: source type 1 not available.
+2015-04-20 16:54:11.435 Final[2643:147712] url =  home
+2015-04-20 16:54:11.435 Final[2643:147712] loadPhotoListFromDB invoked
+2015-04-20 16:54:11.435 Final[2643:147712] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 16:54:11.435 Final[2643:147712] loadPhotoListFromDB invoke finished
+2015-04-20 16:54:11.486 Final[2643:147712] showPhotos invoked
+2015-04-20 16:54:12.306 Final[2643:147712] CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 16:54:12.306 Final[2643:147712] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 16:54:12.308 Final[2643:147712] url =  takephoto
+2015-04-20 16:54:12.308 Final[2643:147712] start to take photo
+2015-04-20 16:54:12.308 Final[2643:147712] getPictureFromCamera invoked
+2015-04-20 16:54:12.308 Final[2643:153430] Camera.getPicture: source type 1 not available.
+2015-04-20 16:57:46.119 Final[2643:147712] url =  home
+2015-04-20 16:57:46.119 Final[2643:147712] loadPhotoListFromDB invoked
+2015-04-20 16:57:46.120 Final[2643:147712] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 16:57:46.120 Final[2643:147712] loadPhotoListFromDB invoke finished
+2015-04-20 16:57:46.186 Final[2643:147712] showPhotos invoked
+2015-04-20 16:57:47.118 Final[2643:147712] url =  takephoto
+2015-04-20 16:57:47.118 Final[2643:147712] start to take photo
+2015-04-20 16:57:47.118 Final[2643:147712] getPictureFromCamera invoked
+2015-04-20 16:57:47.118 Final[2643:157737] Camera.getPicture: source type 1 not available.
+2015-04-20 17:10:24.901 Final[2780:175514] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/109F5F0D-FF90-4A1F-A094-66C1EE5ACAE0/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:10:25.033 Final[2780:175514] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:10:25.033 Final[2780:175514] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:10:25.034 Final[2780:175514] Unlimited access to network resources
+2015-04-20 17:10:25.036 Final[2780:175514] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:10:25.235 Final[2780:175514] Resetting plugins due to page load.
+2015-04-20 17:10:25.272 Final[2780:175514] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/F58B3FA1-9AB8-4950-9E53-AF55443A8302/Final.app/www/index.html
+2015-04-20 17:10:25.295 Final[2780:175514] Received Event: deviceready
+2015-04-20 17:10:25.295 Final[2780:175514] url =  
+2015-04-20 17:10:25.295 Final[2780:175514] loadPhotoListFromDB invoked
+2015-04-20 17:10:25.295 Final[2780:175514] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:10:25.296 Final[2780:175514] loadPhotoListFromDB invoke finished
+2015-04-20 17:10:25.357 Final[2780:175514] showPhotos invoked
+2015-04-20 17:10:30.635 Final[2780:175514] url =  takephoto
+2015-04-20 17:10:30.635 Final[2780:175514] start to take photo
+2015-04-20 17:10:30.635 Final[2780:175514] getPictureFromCamera invoked
+2015-04-20 17:10:30.636 Final[2780:175537] Camera.getPicture: source type 1 not available.
+2015-04-20 17:10:34.508 Final[2780:175514] CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 17:10:34.508 Final[2780:175514] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 17:10:34.509 Final[2780:175514] url =  home
+2015-04-20 17:10:34.509 Final[2780:175514] loadPhotoListFromDB invoked
+2015-04-20 17:10:34.510 Final[2780:175514] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:10:34.510 Final[2780:175514] loadPhotoListFromDB invoke finished
+2015-04-20 17:10:34.562 Final[2780:175514] showPhotos invoked
+2015-04-20 17:10:35.447 Final[2780:175514] CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 17:10:35.447 Final[2780:175514] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-20 17:10:35.448 Final[2780:175514] url =  takephoto
+2015-04-20 17:10:35.448 Final[2780:175514] start to take photo
+2015-04-20 17:10:35.448 Final[2780:175514] getPictureFromCamera invoked
+2015-04-20 17:10:35.448 Final[2780:175537] Camera.getPicture: source type 1 not available.
+2015-04-20 17:13:06.040 Final[2854:179189] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/107F9676-7DB9-4D26-B176-8083614F38FF/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:13:06.164 Final[2854:179189] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:13:06.165 Final[2854:179189] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:13:06.166 Final[2854:179189] Unlimited access to network resources
+2015-04-20 17:13:06.167 Final[2854:179189] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:13:06.368 Final[2854:179189] Resetting plugins due to page load.
+2015-04-20 17:13:06.405 Final[2854:179189] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/FC535A7F-C6B6-4775-A159-51364D057170/Final.app/www/index.html
+2015-04-20 17:13:06.426 Final[2854:179189] Received Event: deviceready
+2015-04-20 17:13:06.426 Final[2854:179189] url =  
+2015-04-20 17:13:06.426 Final[2854:179189] loadPhotoListFromDB invoked
+2015-04-20 17:13:06.426 Final[2854:179189] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:13:06.426 Final[2854:179189] loadPhotoListFromDB invoke finished
+2015-04-20 17:13:06.543 Final[2854:179189] showPhotos invoked
+2015-04-20 17:13:09.001 Final[2854:179189] url =  takephoto
+2015-04-20 17:13:09.001 Final[2854:179189] start to take photo
+2015-04-20 17:13:09.001 Final[2854:179189] getPictureFromCamera invoked
+2015-04-20 17:13:09.001 Final[2854:179203] Camera.getPicture: source type 1 not available.
+2015-04-20 17:13:13.054 Final[2854:179189] savePhotoToDB invoked
+2015-04-20 17:13:14.820 Final[2854:179189] savePhotoToDB invoked
+2015-04-20 17:13:32.580 Final[2917:180137] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/A9664E1F-0F45-4F6B-B3DA-BF5AB4028B2C/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:13:32.703 Final[2917:180137] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:13:32.703 Final[2917:180137] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:13:32.704 Final[2917:180137] Unlimited access to network resources
+2015-04-20 17:13:32.706 Final[2917:180137] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:13:32.901 Final[2917:180137] Resetting plugins due to page load.
+2015-04-20 17:13:32.937 Final[2917:180137] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/EFD63C78-5E6B-4460-8172-ECBDD037E6D4/Final.app/www/index.html
+2015-04-20 17:13:32.965 Final[2917:180137] Received Event: deviceready
+2015-04-20 17:13:32.965 Final[2917:180137] url =  
+2015-04-20 17:13:32.965 Final[2917:180137] loadPhotoListFromDB invoked
+2015-04-20 17:13:32.965 Final[2917:180137] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:13:32.965 Final[2917:180137] loadPhotoListFromDB invoke finished
+2015-04-20 17:13:33.028 Final[2917:180137] showPhotos invoked
+2015-04-20 17:13:34.235 Final[2917:180137] url =  takephoto
+2015-04-20 17:13:34.235 Final[2917:180137] start to take photo
+2015-04-20 17:13:34.235 Final[2917:180137] getPictureFromCamera invoked
+2015-04-20 17:13:34.236 Final[2917:180151] Camera.getPicture: source type 1 not available.
+2015-04-20 17:13:46.894 Final[2981:180724] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/70905AFE-2428-4B94-95C3-D6A7A8B6A776/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:13:47.018 Final[2981:180724] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:13:47.018 Final[2981:180724] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:13:47.019 Final[2981:180724] Unlimited access to network resources
+2015-04-20 17:13:47.020 Final[2981:180724] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:13:47.224 Final[2981:180724] Resetting plugins due to page load.
+2015-04-20 17:13:47.262 Final[2981:180724] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/872E0D2F-5879-4712-AF63-5088DF81CE32/Final.app/www/index.html
+2015-04-20 17:13:47.284 Final[2981:180724] Received Event: deviceready
+2015-04-20 17:13:47.285 Final[2981:180724] url =  
+2015-04-20 17:13:47.285 Final[2981:180724] loadPhotoListFromDB invoked
+2015-04-20 17:13:47.285 Final[2981:180724] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:13:47.285 Final[2981:180724] loadPhotoListFromDB invoke finished
+2015-04-20 17:13:47.353 Final[2981:180724] showPhotos invoked
+2015-04-20 17:13:48.730 Final[2981:180724] url =  takephoto
+2015-04-20 17:13:48.730 Final[2981:180724] start to take photo
+2015-04-20 17:13:48.730 Final[2981:180724] getPictureFromCamera invoked
+2015-04-20 17:13:48.731 Final[2981:180742] Camera.getPicture: source type 1 not available.
+2015-04-20 17:14:44.798 Final[3047:182267] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/C2842CD6-4A9E-48F3-8FC3-A85E68FA6F6D/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:14:44.926 Final[3047:182267] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:14:44.927 Final[3047:182267] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:14:44.927 Final[3047:182267] Unlimited access to network resources
+2015-04-20 17:14:44.929 Final[3047:182267] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:14:45.128 Final[3047:182267] Resetting plugins due to page load.
+2015-04-20 17:14:45.164 Final[3047:182267] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/8C0384B9-C389-4CA4-AABE-988AAB5855FF/Final.app/www/index.html
+2015-04-20 17:14:45.187 Final[3047:182267] Received Event: deviceready
+2015-04-20 17:14:45.187 Final[3047:182267] url =  
+2015-04-20 17:14:45.187 Final[3047:182267] loadPhotoListFromDB invoked
+2015-04-20 17:14:45.187 Final[3047:182267] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:14:45.187 Final[3047:182267] loadPhotoListFromDB invoke finished
+2015-04-20 17:14:45.250 Final[3047:182267] showPhotos invoked
+2015-04-20 17:14:46.939 Final[3047:182267] url =  takephoto
+2015-04-20 17:14:46.939 Final[3047:182267] start to take photo
+2015-04-20 17:14:46.939 Final[3047:182267] getPictureFromCamera invoked
+2015-04-20 17:14:46.939 Final[3047:182285] Camera.getPicture: source type 1 not available.
+2015-04-20 17:17:09.595 Final[3117:185521] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/B43299F6-CB76-43C3-A00E-4064EB11FD41/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:17:09.738 Final[3117:185521] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:17:09.738 Final[3117:185521] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:17:09.739 Final[3117:185521] Unlimited access to network resources
+2015-04-20 17:17:09.741 Final[3117:185521] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:17:09.968 Final[3117:185521] Resetting plugins due to page load.
+2015-04-20 17:17:10.004 Final[3117:185521] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/B79AA1F0-ACE9-4EF2-84B7-BC6CF7AF2EF7/Final.app/www/index.html
+2015-04-20 17:17:10.037 Final[3117:185521] Received Event: deviceready
+2015-04-20 17:17:10.037 Final[3117:185521] url =  
+2015-04-20 17:17:10.037 Final[3117:185521] loadPhotoListFromDB invoked
+2015-04-20 17:17:10.037 Final[3117:185521] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:17:10.038 Final[3117:185521] loadPhotoListFromDB invoke finished
+2015-04-20 17:17:10.103 Final[3117:185521] showPhotos invoked
+2015-04-20 17:17:11.438 Final[3117:185521] url =  takephoto
+2015-04-20 17:17:11.438 Final[3117:185521] start to take photo
+2015-04-20 17:17:11.438 Final[3117:185521] getPictureFromCamera invoked
+2015-04-20 17:17:11.439 Final[3117:185538] Camera.getPicture: source type 1 not available.
+2015-04-20 17:17:56.173 Final[3185:186991] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/FBCC5FAB-B0CD-4D79-9AEC-E7C19E589BDB/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:17:56.289 Final[3185:186991] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:17:56.290 Final[3185:186991] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:17:56.290 Final[3185:186991] Unlimited access to network resources
+2015-04-20 17:17:56.292 Final[3185:186991] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:17:56.499 Final[3185:186991] Resetting plugins due to page load.
+2015-04-20 17:17:56.537 Final[3185:186991] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/235EEACE-919A-4E49-9FB6-8A23DCE1F917/Final.app/www/index.html
+2015-04-20 17:17:56.561 Final[3185:186991] Received Event: deviceready
+2015-04-20 17:17:56.561 Final[3185:186991] url =  
+2015-04-20 17:17:56.561 Final[3185:186991] loadPhotoListFromDB invoked
+2015-04-20 17:17:56.561 Final[3185:186991] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:17:56.561 Final[3185:186991] loadPhotoListFromDB invoke finished
+2015-04-20 17:17:56.634 Final[3185:186991] showPhotos invoked
+2015-04-20 17:17:58.517 Final[3185:186991] url =  takephoto
+2015-04-20 17:17:58.517 Final[3185:186991] start to take photo
+2015-04-20 17:17:58.517 Final[3185:186991] getPictureFromCamera invoked
+2015-04-20 17:17:58.518 Final[3185:187005] Camera.getPicture: source type 1 not available.
+2015-04-20 17:20:04.477 Final[3255:190014] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/3264EAA0-5CFC-4F7A-9904-A5D061ADE6CB/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:20:04.608 Final[3255:190014] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:20:04.608 Final[3255:190014] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:20:04.609 Final[3255:190014] Unlimited access to network resources
+2015-04-20 17:20:04.611 Final[3255:190014] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:20:04.822 Final[3255:190014] Resetting plugins due to page load.
+2015-04-20 17:20:04.858 Final[3255:190014] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/5817B33C-2581-4EDF-8DF9-FFA42C24E3CC/Final.app/www/index.html
+2015-04-20 17:20:04.883 Final[3255:190014] Received Event: deviceready
+2015-04-20 17:20:04.883 Final[3255:190014] url =  
+2015-04-20 17:20:04.883 Final[3255:190014] loadPhotoListFromDB invoked
+2015-04-20 17:20:04.883 Final[3255:190014] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:20:04.883 Final[3255:190014] loadPhotoListFromDB invoke finished
+2015-04-20 17:20:04.944 Final[3255:190014] showPhotos invoked
+2015-04-20 17:20:06.259 Final[3255:190014] url =  takephoto
+2015-04-20 17:20:06.259 Final[3255:190014] start to take photo
+2015-04-20 17:20:06.259 Final[3255:190014] getPictureFromCamera invoked
+2015-04-20 17:20:06.260 Final[3255:190030] Camera.getPicture: source type 1 not available.
+2015-04-20 17:20:31.632 Final[3319:190957] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/4C166F11-948A-4B26-8644-AE4CC56AB37D/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:20:31.767 Final[3319:190957] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:20:31.767 Final[3319:190957] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:20:31.768 Final[3319:190957] Unlimited access to network resources
+2015-04-20 17:20:31.770 Final[3319:190957] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:20:31.974 Final[3319:190957] Resetting plugins due to page load.
+2015-04-20 17:20:32.011 Final[3319:190957] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/02C3C527-AF42-4C33-BD8D-AAA2C642E21D/Final.app/www/index.html
+2015-04-20 17:20:32.036 Final[3319:190957] Received Event: deviceready
+2015-04-20 17:20:32.036 Final[3319:190957] url =  
+2015-04-20 17:20:32.036 Final[3319:190957] loadPhotoListFromDB invoked
+2015-04-20 17:20:32.036 Final[3319:190957] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:20:32.036 Final[3319:190957] loadPhotoListFromDB invoke finished
+2015-04-20 17:20:32.107 Final[3319:190957] showPhotos invoked
+2015-04-20 17:20:33.189 Final[3319:190957] url =  takephoto
+2015-04-20 17:20:33.189 Final[3319:190957] start to take photo
+2015-04-20 17:20:33.189 Final[3319:190957] getPictureFromCamera invoked
+2015-04-20 17:20:33.190 Final[3319:190974] Camera.getPicture: source type 1 not available.
+2015-04-20 17:21:02.535 Final[3383:191872] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/6E40BDB5-2166-4A17-8AAD-49C81F5B0A26/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:21:02.662 Final[3383:191872] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:21:02.662 Final[3383:191872] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:21:02.663 Final[3383:191872] Unlimited access to network resources
+2015-04-20 17:21:02.665 Final[3383:191872] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:21:02.865 Final[3383:191872] Resetting plugins due to page load.
+2015-04-20 17:21:02.902 Final[3383:191872] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/6C1772B0-02C6-4A44-9D9C-A8A27130969D/Final.app/www/index.html
+2015-04-20 17:21:02.925 Final[3383:191872] Received Event: deviceready
+2015-04-20 17:21:02.925 Final[3383:191872] url =  
+2015-04-20 17:21:02.925 Final[3383:191872] loadPhotoListFromDB invoked
+2015-04-20 17:21:02.925 Final[3383:191872] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:21:02.925 Final[3383:191872] loadPhotoListFromDB invoke finished
+2015-04-20 17:21:02.993 Final[3383:191872] showPhotos invoked
+2015-04-20 17:21:04.069 Final[3383:191872] url =  takephoto
+2015-04-20 17:21:04.069 Final[3383:191872] start to take photo
+2015-04-20 17:21:04.069 Final[3383:191872] getPictureFromCamera invoked
+2015-04-20 17:21:04.069 Final[3383:191887] Camera.getPicture: source type 1 not available.
+2015-04-20 17:23:34.631 Final[3460:195440] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/E87E4D37-A31E-42AE-89D5-CFB2A972CEA0/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:23:34.755 Final[3460:195440] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:23:34.755 Final[3460:195440] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:23:34.756 Final[3460:195440] Unlimited access to network resources
+2015-04-20 17:23:34.758 Final[3460:195440] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:23:34.955 Final[3460:195440] Resetting plugins due to page load.
+2015-04-20 17:23:34.993 Final[3460:195440] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/59C30DE6-C10D-4333-B0F7-5BE153513531/Final.app/www/index.html
+2015-04-20 17:23:35.016 Final[3460:195440] Received Event: deviceready
+2015-04-20 17:23:35.016 Final[3460:195440] url =  
+2015-04-20 17:23:35.017 Final[3460:195440] loadPhotoListFromDB invoked
+2015-04-20 17:23:35.017 Final[3460:195440] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:23:35.017 Final[3460:195440] loadPhotoListFromDB invoke finished
+2015-04-20 17:23:35.078 Final[3460:195440] showPhotos invoked
+2015-04-20 17:23:49.882 Final[3523:196047] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/6024D01B-087E-4083-AC95-620077F8D701/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:23:50.008 Final[3523:196047] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:23:50.008 Final[3523:196047] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:23:50.009 Final[3523:196047] Unlimited access to network resources
+2015-04-20 17:23:50.010 Final[3523:196047] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:23:50.203 Final[3523:196047] Resetting plugins due to page load.
+2015-04-20 17:23:50.249 Final[3523:196047] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/90E125EC-F23A-4B89-AFCA-B465BD1B14A7/Final.app/www/index.html
+2015-04-20 17:23:50.277 Final[3523:196047] Received Event: deviceready
+2015-04-20 17:23:50.277 Final[3523:196047] url =  
+2015-04-20 17:23:50.277 Final[3523:196047] loadPhotoListFromDB invoked
+2015-04-20 17:23:50.277 Final[3523:196047] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:23:50.277 Final[3523:196047] loadPhotoListFromDB invoke finished
+2015-04-20 17:23:50.342 Final[3523:196047] showPhotos invoked
+2015-04-20 17:24:00.910 Final[3523:196047] url =  takephoto
+2015-04-20 17:24:00.910 Final[3523:196047] start to take photo
+2015-04-20 17:24:00.910 Final[3523:196047] getPictureFromCamera invoked
+2015-04-20 17:24:00.910 Final[3523:196109] Camera.getPicture: source type 1 not available.
+2015-04-20 17:24:40.964 Final[3588:197597] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/FF15FEB6-65D8-4218-9CD3-AAE7019706AE/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:24:41.081 Final[3588:197597] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:24:41.081 Final[3588:197597] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:24:41.082 Final[3588:197597] Unlimited access to network resources
+2015-04-20 17:24:41.084 Final[3588:197597] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:24:41.282 Final[3588:197597] Resetting plugins due to page load.
+2015-04-20 17:24:41.319 Final[3588:197597] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/4E3789BA-2130-4200-B90E-1071FD3D8B11/Final.app/www/index.html
+2015-04-20 17:24:41.344 Final[3588:197597] Received Event: deviceready
+2015-04-20 17:24:41.344 Final[3588:197597] url =  
+2015-04-20 17:24:41.344 Final[3588:197597] loadPhotoListFromDB invoked
+2015-04-20 17:24:41.344 Final[3588:197597] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:24:41.344 Final[3588:197597] loadPhotoListFromDB invoke finished
+2015-04-20 17:24:41.487 Final[3588:197597] showPhotos invoked
+2015-04-20 17:25:14.945 Final[3588:197597] url =  takephoto
+2015-04-20 17:25:14.945 Final[3588:197597] start to take photo
+2015-04-20 17:25:14.945 Final[3588:197597] getPictureFromCamera invoked
+2015-04-20 17:25:14.946 Final[3588:198197] Camera.getPicture: source type 1 not available.
+2015-04-20 17:27:29.003 Final[3659:201486] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/E73BB356-2475-4B4E-885A-E786679FB500/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:27:29.129 Final[3659:201486] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:27:29.130 Final[3659:201486] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:27:29.131 Final[3659:201486] Unlimited access to network resources
+2015-04-20 17:27:29.132 Final[3659:201486] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:27:29.329 Final[3659:201486] Resetting plugins due to page load.
+2015-04-20 17:27:29.367 Final[3659:201486] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/610FE377-1DE1-4516-B73B-F4ADCFB2DA85/Final.app/www/index.html
+2015-04-20 17:27:29.388 Final[3659:201486] Received Event: deviceready
+2015-04-20 17:27:29.388 Final[3659:201486] url =  
+2015-04-20 17:27:29.388 Final[3659:201486] loadPhotoListFromDB invoked
+2015-04-20 17:27:29.388 Final[3659:201486] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:27:29.388 Final[3659:201486] loadPhotoListFromDB invoke finished
+2015-04-20 17:27:29.453 Final[3659:201486] showPhotos invoked
+2015-04-20 17:27:30.470 Final[3659:201486] url =  takephoto
+2015-04-20 17:27:30.470 Final[3659:201486] start to take photo
+2015-04-20 17:27:30.470 Final[3659:201486] getPictureFromCamera invoked
+2015-04-20 17:27:30.470 Final[3659:201501] Camera.getPicture: source type 1 not available.
+2015-04-20 17:27:54.333 Final[3722:202294] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/7A2D02F7-C418-41DC-B94A-0AF2C8B1E327/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:27:54.456 Final[3722:202294] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:27:54.457 Final[3722:202294] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:27:54.458 Final[3722:202294] Unlimited access to network resources
+2015-04-20 17:27:54.459 Final[3722:202294] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:27:54.655 Final[3722:202294] Resetting plugins due to page load.
+2015-04-20 17:27:54.692 Final[3722:202294] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/156497D4-B58A-4AB0-B443-602FA6F8DE13/Final.app/www/index.html
+2015-04-20 17:27:54.715 Final[3722:202294] Received Event: deviceready
+2015-04-20 17:27:54.715 Final[3722:202294] url =  
+2015-04-20 17:27:54.715 Final[3722:202294] loadPhotoListFromDB invoked
+2015-04-20 17:27:54.715 Final[3722:202294] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:27:54.715 Final[3722:202294] loadPhotoListFromDB invoke finished
+2015-04-20 17:27:54.783 Final[3722:202294] showPhotos invoked
+2015-04-20 17:27:56.014 Final[3722:202294] url =  takephoto
+2015-04-20 17:27:56.014 Final[3722:202294] start to take photo
+2015-04-20 17:27:56.014 Final[3722:202294] getPictureFromCamera invoked
+2015-04-20 17:27:56.014 Final[3722:202310] Camera.getPicture: source type 1 not available.
+2015-04-20 17:28:31.560 Final[3784:203416] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/79E9B0D7-3C26-4C1A-A8FA-68B4C3DF34B7/Library/Cookies/Cookies.binarycookies
+2015-04-20 17:28:31.682 Final[3784:203416] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 17:28:31.682 Final[3784:203416] Multi-tasking -> Device: YES, App: YES
+2015-04-20 17:28:31.683 Final[3784:203416] Unlimited access to network resources
+2015-04-20 17:28:31.685 Final[3784:203416] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 17:28:31.881 Final[3784:203416] Resetting plugins due to page load.
+2015-04-20 17:28:31.919 Final[3784:203416] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/6A265A77-601C-4D26-B93C-5C617B9DC337/Final.app/www/index.html
+2015-04-20 17:28:31.942 Final[3784:203416] Received Event: deviceready
+2015-04-20 17:28:31.942 Final[3784:203416] url =  
+2015-04-20 17:28:31.942 Final[3784:203416] loadPhotoListFromDB invoked
+2015-04-20 17:28:31.942 Final[3784:203416] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:28:31.942 Final[3784:203416] loadPhotoListFromDB invoke finished
+2015-04-20 17:28:32.016 Final[3784:203416] showPhotos invoked
+2015-04-20 17:28:35.052 Final[3784:203416] url =  takephoto
+2015-04-20 17:28:35.052 Final[3784:203416] start to take photo
+2015-04-20 17:28:35.052 Final[3784:203416] getPictureFromCamera invoked
+2015-04-20 17:28:35.053 Final[3784:203430] Camera.getPicture: source type 1 not available.
+2015-04-20 17:28:38.329 Final[3784:203416] url =  home
+2015-04-20 17:28:38.329 Final[3784:203416] loadPhotoListFromDB invoked
+2015-04-20 17:28:38.329 Final[3784:203416] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 17:28:38.329 Final[3784:203416] loadPhotoListFromDB invoke finished
+2015-04-20 17:28:38.367 Final[3784:203416] showPhotos invoked
+2015-04-20 18:01:06.284 Final[4334:213663] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/D9D80A6D-B796-4C38-8B3F-A7800BFDB2C9/Library/Cookies/Cookies.binarycookies
+2015-04-20 18:01:06.415 Final[4334:213663] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 18:01:06.415 Final[4334:213663] Multi-tasking -> Device: YES, App: YES
+2015-04-20 18:01:06.416 Final[4334:213663] Unlimited access to network resources
+2015-04-20 18:01:06.418 Final[4334:213663] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 18:01:06.617 Final[4334:213663] Resetting plugins due to page load.
+2015-04-20 18:01:06.653 Final[4334:213663] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/A28EC4B2-2564-4EAF-A49F-B8506E443979/Final.app/www/index.html
+2015-04-20 18:01:06.678 Final[4334:213663] Received Event: deviceready
+2015-04-20 18:01:06.678 Final[4334:213663] url =  
+2015-04-20 18:01:06.678 Final[4334:213663] loadPhotoListFromDB invoked
+2015-04-20 18:01:06.678 Final[4334:213663] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 18:01:06.678 Final[4334:213663] loadPhotoListFromDB invoke finished
+2015-04-20 18:01:06.733 Final[4334:213663] showPhotos invoked
+2015-04-20 18:01:47.939 Final[4401:214380] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Data/Application/AF45911B-B3ED-40EC-9422-25EA503FF77B/Library/Cookies/Cookies.binarycookies
+2015-04-20 18:01:48.057 Final[4401:214380] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-20 18:01:48.057 Final[4401:214380] Multi-tasking -> Device: YES, App: YES
+2015-04-20 18:01:48.058 Final[4401:214380] Unlimited access to network resources
+2015-04-20 18:01:48.060 Final[4401:214380] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-20 18:01:48.252 Final[4401:214380] Resetting plugins due to page load.
+2015-04-20 18:01:48.293 Final[4401:214380] Finished load of: file:///Users/helen/Library/Developer/CoreSimulator/Devices/C614949D-C714-40B5-9B70-1E02C1C28692/data/Containers/Bundle/Application/7B2C2637-DFE2-4AC3-8136-E216AC3560AA/Final.app/www/index.html
+2015-04-20 18:01:48.318 Final[4401:214380] Received Event: deviceready
+2015-04-20 18:01:48.318 Final[4401:214380] url =  
+2015-04-20 18:01:48.318 Final[4401:214380] loadPhotoListFromDB invoked
+2015-04-20 18:01:48.318 Final[4401:214380] url= http://m.edumedia.ca/yuan0037/mad9022/final/list.php?dev=CE651679-31C1-4757-891B-34F2B60326D1
+2015-04-20 18:01:48.318 Final[4401:214380] loadPhotoListFromDB invoke finished
+2015-04-20 18:01:48.396 Final[4401:214380] showPhotos invoked
